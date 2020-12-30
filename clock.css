@@ -4,6 +4,11 @@ body {
   background-color: #121212;
 }
 
+h3 {
+  font-family: "Orbitron", sans-serif;
+  color: #66ff99;
+}
+
 #clock {
   font-family: 'Orbitron', sans-serif;
   color: #66ff99;
@@ -11,4 +16,22 @@ body {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+#alarm-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: space-between;
+  color: #66ff99;
+}
+
+#buttonHolder {
+  display: flex;
+  align-content: space-between;
+}
+
+button {
+  text-decoration: none;
 }
