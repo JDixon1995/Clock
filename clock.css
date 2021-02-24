@@ -7,6 +7,7 @@ body {
 h3 {
   font-family: "Orbitron", sans-serif;
   color: #66ff99;
+  text-align: center;
 }
 
 #clock {
@@ -20,18 +21,34 @@ h3 {
 
 #alarm-container {
   display: flex;
-  justify-content: center;
   flex-direction: row;
-  align-items: center;
-  align-content: space-between;
+  justify-content: space-around;
+  align-content: center;
+  width:50%;
+  margin: 0 auto;
+  padding: 15px;
   color: #66ff99;
 }
 
 #buttonHolder {
   display: flex;
-  align-content: space-between;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
 }
 
 button {
   text-decoration: none;
+  border-color: 66ff99;
+  border: solid;
 }
+
+
+selectorButtons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 5px;
+}
+

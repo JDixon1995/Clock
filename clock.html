@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +8,14 @@
 </head>
 <body>
     <div id="clock"></div>
+    <h3>Set Alarm Time</h3>
     <div id="alarm-container">
-        <h3>Set Alarm Time</h3>
         <label>
-            <div>
-                <h4>Hours</h4>
-                <select id="alarmhrs"></select>
+            <div id="selectorButtons">
+                <div>
+                    <h4>Hours</h4>
+                    <select id="alarmhrs"></select>
+                </div>
             </div>
         </label>
         <label>
@@ -38,14 +40,20 @@
             </div>
         </label>
     </div>
-    <div id="buttonHolder">
-        <div>
-            <button id="setButton" onclick="alarmSet()">Set Alarm</button>
-        </div>
-        <div>
-            <button id="clearButton" onclick="alarmClear()">Clear Alarm</button>
-        </div>
-    </div>
+
+
+            <div id="buttonHolder">
+                <div>
+                    <button id="setButton" onclick="alarmSet()">Set Alarm</button>
+                </div>
+                <div>
+                    <button id="clearButton" onclick="alarmClear()">Clear Alarm</button>
+                </div>
+            </div>
+   
+    <footer>
+        <h3>TM Digital Soultions</h3>
+    </footer>
     <script src="clock.js"></script>
 </body>
 </html>
